@@ -1,0 +1,201 @@
+#search {
+	position: absolute;
+	width: 100%;
+}
+.carousel-overlay {
+	position: absolute;
+	width: 100%;
+}
+.jumbotron.p-3 {
+	background-color: #101048;
+
+}
+.jumbotron.p-3 img {
+	background-size: 50px 100px;
+	border: 3px;
+	margin:0;
+	padding: 0;
+	width:125px;
+	height:150px;
+}
+.mini{
+	font-size: 12px;
+}
+.jumbotron.inimg , .btn.btn-primary.btn-sm {
+	height: 30px;
+	border-radius: 0;
+}
+
+.navbar-brand {
+	font-family: 'Wire One', cursive;
+	font-weight: 800;
+}
+nav, .navbar-brand{
+	font-size: 25px;
+}
+li .nav-item {
+	font-size: 15px;
+	margin: auto 0;
+}
+nav ul li {
+	margin: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #ff5480;
+}
+.small {
+	font-size: 10px;
+}
+form {
+	z-index: 3;
+}
+
+@media (max-width: 991px){
+
+	#mainimg{
+		border-radius: 20% !important;
+	}
+}
+
+#mainimg{
+	/* background-size: 800px 600px; */
+	border: 3px;
+	border-radius: 20%;
+	border-bottom-right-radius: 0%;
+	border-top-right-radius: 0%;
+	margin:0;
+	/* width:800px; */
+	/* height:600px; */
+}
+.pinkcolor{
+	color:#e75480;
+}
+.card {
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+.carousel-card {
+	max-width: 54rem;
+}
+#myCarousel {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.footer {
+	height: 500px;
+}
+#buttoncarousel{
+	width: 10%;
+	color: black;
+}
+/* button.carousel-control.prev {
+	heigh
+} */
+.carousel .carousel-item {
+	  padding-bottom: 50px;
+}
+
+	  .carousel-control.left {
+		margin-left: -25px;
+		outline: none;
+		border: none !important;
+	  }
+	  
+	  .carousel-control.right {
+		outline: none;
+		margin-right: -25px;
+		width:  10px;
+		height: 10px;
+	  }
+
+.subcard {
+	max-width: 60%;
+	max-height: 60%;
+	margin: auto 0 auto auto ;
+	border-radius: 0%;
+	/* margin-inline-end: auto; */
+}
+.card.carousel-card {
+	border-bottom-right-radius: 1%;
+	border-bottom-left-radius: 1%;
+}
+#btn-buy {
+	width: 200px;
+	height: 50px;
+	background-color: #e75480;
+}
+#subscribe {
+	background-color: #e75480;
+	border: 0;
+}
+#subscribe, #inputemail {
+	border-radius: 0;
+}
+.subtitle {
+	font-size: 12px;
+	font-weight: 300;
+}
+.btn.btn-outline-danger {
+	background-color: lightgrey;
+	border: 3px;
+	border-radius: 50%;	
+}
+#profile_image {
+	border: 3px;
+	border-radius: 50%;
+	margin:0;
+}
+#bakery_image {
+	background-size: 20px 20px;
+	border: 3px;
+	border-radius: 50%;
+	margin:0;
+	width:20px;
+	height:20px;
+}
+#bake {
+	font-family: 'Great Vibes', cursive;
+	color: #e75480;
+}
+#active{
+	color: #ff5480;
+}
+
+#profile {
+	display: inline-block;
+	margin: auto 0;
+}
+#navbarDropdown {
+	font-size: 10px;
+	background-color: #e75480;
+
+}
+.main-navigation {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.8);
+}
+#subscribe , #inputemail {
+	height: 30px;
+}
+#searchdropdown {
+	height: 60px;
+	border:rgba(0,0,0,.2) 1px solid;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	background: white;
+}
+#inputsearch {
+	height:60px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+#searchbutton {
+	height: 60px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background: navy;	
+}
